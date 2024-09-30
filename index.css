@@ -1,0 +1,34 @@
+/* Styles de base */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Style du conteneur */
+.container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Style de la boîte de couleurs */
+#couleur-box {
+    width: 200px;
+    height: 200px;
+    background-color: #3498db; /* Couleur par défaut */
+    margin: 20px auto;
+}
+
+/* Style du bouton */
+#change-couleur-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #2ecc71;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
